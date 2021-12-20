@@ -2,6 +2,9 @@
 
 Config files for my desktop environments, window managers and other linux files.
 
+## This is another Subheader
+This a text for the sub header.
+
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
