@@ -1,9 +1,6 @@
-# dotfiles
+# Ded5ec's dotfiles
 
 Config files for my desktop environments, window managers and other linux files.
-
-## This is another Subheader
-This a text for the sub header.
 
 ## Getting started
 
