@@ -1,6 +1,6 @@
 # dotfiles
 
-Config files for my desktop environments and other arch linux files.
+Config files for my desktop environments, window managers and other linux files.
 
 ## Getting started
 
