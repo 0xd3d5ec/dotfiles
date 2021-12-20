@@ -1,0 +1,1 @@
+This is a test file, why git doesn't add a directory and merge it with the remote directory.
