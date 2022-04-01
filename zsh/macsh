@@ -1,0 +1,8 @@
+# Enter the MAC Address to filter
+echo "Enter MAC Address to Filter: "
+
+# MAC Address to read from user
+read macaddress
+
+# Result of Filtered MAC Address
+echo "Filtered MAC address:" && echo "$macaddress" | sed 's/://g'
