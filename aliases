@@ -1,0 +1,10 @@
+# my zsh aliases
+alias pac='sudo pacman'
+alias par='paru'
+alias sr='reboot'
+alias off='shutdown now'
+alias _='sudo'
+alias pvpn='protonvpn-cli'
+alias ovpn='openpvn'
+alias cleanup='sudo pacman -Rs $(pacman -Qtdq)'
+alias ydl='yt-dlp'
