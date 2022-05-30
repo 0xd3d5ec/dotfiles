@@ -1,4 +1,0 @@
-git clone this respository:
-https://github.com/Prayag2/kde_like_tiling_wm.git
-
-then do some modifications
