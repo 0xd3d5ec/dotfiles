@@ -8,13 +8,13 @@ Step two: [Reconissance & Testing]
 	if not then proceed with the next steps.
 
 Step three: [Configuring and creating database, user with password]
-	after installing postgresql, you will have another user on the system with name postgres, su into that and do the following:
+	after installing postgresql, you will have another user on the system with name postgres, su into that and do the following(make sure you check the journalctl for errors, this will help tremendously when troubleshooting errors that might occur.
 	"cd ~"
 	"psql -c "alter user postgres with password '<passwordhere>'"
 	should see "ALTER ROLE" returned
 	"psql"
 	"\l" to list all databases.
-	"CREATE DATABASE <databasename>;"
+	"CREATE DATABASE <databasename>;"  // comment: all in the small
 	"\l" to make sure database was created.
 	"CREATE USER <user> WITH ENCRYPTED PASSWORD '<password>';"
 	"GRANT ALL PRIVILEGES ON DATABASE <databasename> to <user>;"
