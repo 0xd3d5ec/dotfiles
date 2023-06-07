@@ -47,7 +47,7 @@ su root
 </code></pre>
 
 Create config file for database
-<pre><code>"vim .database.yml"</code></pre>
+<pre><code>vim .database.yml</code></pre>
 
 In .database.yml file, put the following:
 <pre><code>	
