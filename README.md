@@ -1,4 +1,4 @@
-# Ded5ec's dotfiles
+# Personal dotfiles
 
 Config files for my desktop environments, window managers and other linux files.
 
