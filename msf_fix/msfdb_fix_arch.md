@@ -66,9 +66,8 @@ In .database.yml file, put the following:
 
 ## Step four: [Connecting to database in msf]
 After starting msfconsole, you type <code>db_status</code>, still you will find no connection has been initated.
-<pre><code>db_connect</code></pre> 
-should be typed to start connection using the previously <strong>created database, user, and password</strong>.
 <pre><code>db_connect <username@database></code></pre>
+should be typed to start connection using the previously <strong>created database, user, and password</strong>.
 <pre><code>db_status</code></pre>
-to check database connection.
+To check database connection.
 
