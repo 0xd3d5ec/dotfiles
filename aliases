@@ -1,0 +1,17 @@
+# personal alias
+alias _='sudo '
+alias p='paru '
+alias py='paru -Sy '
+alias pi='paru -S '
+alias pr='paru -R '
+alias pis='paru -Ss '
+alias psc='paru -Sc '
+alias szsh='source ~/.zshrc'
+alias ip='grc ip a'
+alias ls='exa'
+alias ll='exa -l'
+alias l='exa -ahl'
+alias update-grub='grub-mkconfig -o /boot/grub/grub.cfg'
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
