@@ -1,9 +1,11 @@
 Step one: [Installing database package]
-	install "postgresql" using your package manager mostly pacman.
+sudo pacman -Sy postgresql
 
 Step two: [Reconissance & Testing]
-	test db connection after starting msf using "msfconsole" command.
-	use "db_status" command to check database connectivity.
+test db connection after starting msf using "msfconsole" command.
+msfconsole
+use "db_status" command to check database connectivity.
+db_status
 	if works great done
 	if not then proceed with the next steps.
 
