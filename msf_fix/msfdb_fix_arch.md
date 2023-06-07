@@ -25,12 +25,13 @@ should see "ALTER ROLE" returned
 <pre><code>psql</code></pre>
 
 <pre><code>\l</code></pre> 
-to list all databases.
+To list all databases.
 
+Create a database
 <pre><code>CREATE DATABASE <databasename>;</code></pre>  
 
 <pre><code>\l"</code></pre>
-to make sure database was created.
+To make sure database was created.
 
 <pre><code>CREATE USER <user> WITH ENCRYPTED PASSWORD '<password>';</code></pre>
 
@@ -49,7 +50,8 @@ Create config file for database
 <pre><code>"vim .database.yml"</code></pre>
 
 In .database.yml file, put the following:
-<pre><code>	[
+<pre><code>	
+[
 	production:
 		adapter: postgresql
 		database: <database>
@@ -59,7 +61,7 @@ In .database.yml file, put the following:
 		port: default is 5432, can be changed
 		pool: 5
 		timeout: 5
-	]
+]
 </code></pre>
 
 ## Step four: [Connecting to database in msf]
