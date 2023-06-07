@@ -1,5 +1,5 @@
 # Step one: [Installing database package]
-<pre>sudo pacman -Sy postgresql<code>
+<code>sudo pacman -Sy postgresql</code>
 
 Step two: [Reconissance & Testing]
 test db connection after starting msf using "msfconsole" command.
