@@ -1,0 +1,23 @@
+# ------------------------------------------------------------
+#            _                                                 _ 
+#    _______| |__        _ __   ___ _ __ ___  ___  _ __   __ _| |
+#   |_  / __| '_ \ _____| '_ \ / _ \ '__/ __|/ _ \| '_ \ / _` | |
+#  _ / /\__ \ | | |_____| |_) |  __/ |  \__ \ (_) | | | | (_| | |
+# (_)___|___/_| |_|     | .__/ \___|_|  |___/\___/|_| |_|\__,_|_|
+#                       |_|     By s1v3rw1ng v1.0                                     
+#                                                                
+# ------------------------------------------------------------
+alias _='sudo '
+alias apt='sudo nala '
+alias v='vim'
+alias bat='batcat'
+alias szsh='source ~/.zshrc'
+
+# Tools commands
+# --------------
+
+
+# change default username in kali
+# sudo usermod -l abdo -d /home/abdo -m kali
+# groupmod -n abdo kali
+# ln -s /home/abdo /home/kali
